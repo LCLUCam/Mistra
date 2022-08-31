@@ -4,19 +4,19 @@
 TITLE="First simul with param file"
 
 #      MODEL BINARY USED
-MISTRAEXE=~/Mistra_2019/src/mistra
+MISTRAEXE=~/scum-alpha/Mistra_framework/Mistra/src/mistra
 
 #      NAMELIST USED
-NAMELIST=~/Mistra_2019/namelists/namelist.base1
+NAMELIST=~/scum-alpha/Mistra_framework/Mistra/namelists/namelist.test
 
 #      MECHANISM DIRECTORY
-MECHDIR=~/Mistra_2019/src/mech/
+MECHDIR=~/scum-alpha/Mistra_framework/Mistra/src/mech/
 
 #      INPUT DIRECTORY
-INPDIR=~/Mistra_2019/input/
+INPDIR=~/scum-alpha/Mistra_framework/Mistra/input/
 
 #      PARENT OUTPUT DIR
-POUTDIR=~/Mistra_2019/out/
+POUTDIR=~/scum-alpha/Mistra_framework/Mistra/out/
 
 
 
@@ -35,7 +35,7 @@ OUTDIR=$POUTDIR$EXPID/
 # -- then check if it already exists
 if [ -e $OUTDIR ]
 then
-    answer=''
+    answer='y'
     until [[ $answer == 'y' ]] || [[ $answer == 'n' ]] || [[ $answer == 'e' ]] ; do
 	echo "The simulations already exists, overwrite?"
 	echo "  (fresh run, choose y; restart same run, choose n; exit to change name, choose e)"
