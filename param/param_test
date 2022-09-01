@@ -4,19 +4,19 @@
 TITLE="First simul with param file"
 
 #      MODEL BINARY USED
-MISTRAEXE=~/scum-alpha/Mistra_framework/Mistra/src/mistra
+MISTRAEXE=$MISTRA_HOME/src/mistra
 
 #      NAMELIST USED
-NAMELIST=~/scum-alpha/Mistra_framework/Mistra/namelists/namelist.test
+NAMELIST=$MISTRA_HOME/namelists/namelist.test
 
 #      MECHANISM DIRECTORY
-MECHDIR=~/scum-alpha/Mistra_framework/Mistra/src/mech/
+MECHDIR=$MISTRA_HOME/src/mech/
 
 #      INPUT DIRECTORY
-INPDIR=~/scum-alpha/Mistra_framework/Mistra/input/
+INPDIR=$MISTRA_HOME/input/
 
 #      PARENT OUTPUT DIR
-POUTDIR=~/scum-alpha/Mistra_framework/Mistra/out/
+POUTDIR=$MISTRA_HOME/out/
 
 
 
