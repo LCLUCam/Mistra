@@ -4,7 +4,7 @@
 TITLE="First simul with param file"
 
 #      MODEL BINARY USED
-MISTRAEXE=$MISTRA_HOME/src/mistra
+MISTRAEXE=/Mistra_framework/Mistra/src/mistra
 
 #      NAMELIST USED
 NAMELIST=$MISTRA_HOME/namelists/namelist.test
