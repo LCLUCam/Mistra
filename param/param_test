@@ -7,7 +7,8 @@ TITLE="First simul with param file"
 MISTRAEXE=$MISTRA_HOME/src/mistra
 
 #      NAMELIST USED
-NAMELIST=$MISTRA_HOME/namelists/namelist.test
+NAMELIST=$BOX
+#$MISTRA_HOME/namelists/namelist.test
 
 #      MECHANISM DIRECTORY
 MECHDIR=$MISTRA_HOME/src/mech/
