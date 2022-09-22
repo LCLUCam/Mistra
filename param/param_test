@@ -36,6 +36,7 @@ OUTDIR=$POUTDIR$EXPID/
 # -- then check if it already exists
 if [ -e $OUTDIR ]
 then
+    echo $ANSWER
     answer=$ANSWER
     until [[ $answer == 'y' ]] || [[ $answer == 'n' ]] || [[ $answer == 'e' ]] ; do
 	echo "The simulations already exists, overwrite?"
